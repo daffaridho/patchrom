@@ -1,21 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="github"
-           fetch=".." />
-
-  <default revision="refs/heads/ics"
-           remote="github"
-           sync-j="4" />
-
-  <project path="build" name="MiCode/patchrom_build">
-    <copyfile src="makefile" dest="Makefile" />
-  </project>
-  <project path="manifest" name="MiCode/patchrom" />
-  <project path="android" name="MiCode/patchrom_android" />
-  <project path="honor" name="MiCode/patchrom_honor" />
-  <project path="i9100" name="MiCode/patchrom_i9100" />
-  <project path="miui" name="MiCode/patchrom_miui" />
-  <project path="tools" name="MiCode/patchrom_tools" />
-  <project path="i9300" name="MiCode/patchrom_i9300" />
 </manifest>
