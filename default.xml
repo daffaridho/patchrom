@@ -6,7 +6,7 @@
 
   <default revision="refs/heads/gingerbread"
            remote="github"
-           sync-j="4" />
+           sync-j="16" />
 
   <project path="build" name="MiCode/patchrom_build" />
   <project path="patchrom" name="MiCode/patchrom" />
